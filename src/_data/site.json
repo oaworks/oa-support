@@ -1,7 +1,7 @@
 {
   "name": "OAsupport",
   "tagline": "A help desk for making papers Open Access.",
-  "base_url": "http://localhost:8080",
+  "base_url": "https://oa.support",
   "twitter": "OA_Works",
   "facebook": "oadotworks",
   "github": "oaworks",
