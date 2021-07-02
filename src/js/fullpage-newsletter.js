@@ -28,7 +28,7 @@ jQuery(document).ready(function() {
         $('#fullpage-submit').click(); // will run again, but this time skip to letting the form display warning
       } else {
         // form valid now, send the data and go to thanks
-        $('fullpage-#submit').replaceWith('<button>Submitting&hellip;</button>');
+        $('#fullpage-submit').replaceWith('<button>Submitting&hellip;</button>');
 
         var data = {};
 
