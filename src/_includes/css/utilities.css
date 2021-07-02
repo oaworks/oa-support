@@ -137,6 +137,10 @@
   padding-top: 1em;
 }
 
+.padding-top-xl {
+  padding-top: var(--space-xl);
+}
+
 .no-margin {
   margin: 0;
 }
