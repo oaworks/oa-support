@@ -2,7 +2,7 @@
   {
     "name": "Joe McArthur",
     "role": "Director",
-    "bio": "Co-founded OA.Works. Worked at <a href ='https://www.opencon.community' target='_blank' rel='noopener'>OpenCon</a> and <a href ='https://sparcopen.org' target='_blank' rel='noopener'>SPARC</a>.",
+    "bio": "Co-founded <a href ='https://oa.works' target='_blank' rel='noopener' class='border-bottom'>OA.Works</a>. Worked at <a href ='https://www.opencon.community' target='_blank' rel='noopener' class='border-bottom'>OpenCon</a> and <a href ='https://sparcopen.org' target='_blank' rel='noopener' class='border-bottom'>SPARC</a>.",
     "img": "joe.png",
     "colour": "cyan",
     "email": "joe@oa.works",
@@ -12,7 +12,7 @@
   {
     "name": "Natalia Norori",
     "role": "Data wrangler & systems manager",
-    "bio": "Profiled by <a href='https://www.forbes.com/sites/andrewwight/2020/07/19/this-nicaraguan-is-showing-how-to-better-share-pandemic-health-data/' target='_blank' rel='noopener'>Forbes</a>",
+    "bio": "Profiled by <a href='https://www.forbes.com/sites/andrewwight/2020/07/19/this-nicaraguan-is-showing-how-to-better-share-pandemic-health-data/' target='_blank' rel='noopener' class='border-bottom'>Forbes</a>",
     "img": "natalia.png",
     "colour": "violet",
     "email": "natalia@oa.works",
