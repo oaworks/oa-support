@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
     } else {
       try { e.preventDefault(); } catch(err) {};
 
-      valid = $('#fullpage-newsletter')[0].checkValidity();
+      valid = $('#newsletter')[0].checkValidity();
       if (!valid) {
         $('#fullpage-submit').click(); // will run again, but this time skip to letting the form display warning
       } else {
