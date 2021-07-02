@@ -84,7 +84,7 @@ html {
 #video {
   margin-left: var(--gutter-negative);
   position: fixed;
-  transform: scaleX(-1);
+  min-height: 100vh;
 }
 
 @media only screen and (max-width: 1023px) {
