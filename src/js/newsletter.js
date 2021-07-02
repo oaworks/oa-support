@@ -1,5 +1,11 @@
 jQuery(document).ready(function() {
 
+  // Display thank you message on form submit
+  function showSuccessMsg() {
+    var newsletterThanks = "<p class='type-1 fw-900'>Thanks for signing up! We will be in touch.</p>";
+    document.getElementById("newsletter").innerHTML = newsletterThanks;
+  }
+
   var paramsintoform = function() {
     if (window.location.search) {
       var s = window.location.search.split('?')[1];
@@ -29,6 +35,9 @@ jQuery(document).ready(function() {
       } else {
         // form valid now, send the data and go to thanks
         $('#submit').replaceWith('<button>Submitting&hellip;</button>');
+
+        // display thank you text
+        showSuccessMsg();
 
         var data = {};
 
