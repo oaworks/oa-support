@@ -141,6 +141,10 @@
   margin: 0;
 }
 
+.margin-right {
+  margin-right: 1em;
+}
+
 .margin-bottom {
   margin-bottom: 1em;
 }
