@@ -37,28 +37,50 @@ meta_description: "OAreport is an open-source tool that analyzes papers covered 
     <ul class="unstyled-list row row--centered">
       <li class="col col--1of3 flex-space-between flex-col" data-sal="slide-up" data-sal-delay="50">
         <h3 class="label border-top-thick padding-top"><span class="type-3">Answer</span></h3>
-        <p class="type-3 no-margin fw-300">author questions within 24 hours</p>
+        <p class="type-4 no-margin fw-300">author questions within 24 hours</p>
         <div>
           <div class="illus">{% include 'svg/help-1.svg' %}</div>
         </div>
       </li>
       <li class="col col--1of3 flex-space-between flex-col" data-sal="slide-up" data-sal-delay="100">
         <h3 class="label border-top-thick padding-top"><span class="type-3">Remind</span></h3>
-        <p class="type-3 no-margin fw-300">researchers of outreach that may have been missed</p>
+        <p class="type-4 no-margin fw-300">researchers of outreach that may have been missed</p>
         <div>
           <div class="illus">{% include 'svg/help-2.svg' %}</div>
         </div>
       </li>
       <li class="col col--1of3 flex-space-between flex-col" data-sal="slide-up" data-sal-delay="150">
         <h3 class="label border-top-thick padding-top"><span class="type-3">Report</span></h3>
-        <p class="type-3 no-margin fw-300">on authors progress and challenges</p>
+        <p class="type-4 no-margin fw-300">on authors progress and challenges</p>
         <div>
           <div class="illus">{% include 'svg/help-3.svg' %}</div>
         </div>
       </li>
     </ul>
 
-    <h2 class="label">Our funder</h2>
+    <h2 class="font-sans type-1 fw-900">Meet our team</h2>
+    <ul class="unstyled-list row">
+      {% for person in team %}
+      {% assign delay_count = delay_count | plus: 50 %}
+      <li class="col--1of2">
+        <article class="flex">
+          <div class="margin-right">
+            {% if person.img %}
+            <figure class="portrait portrait--circular" style="background-color: var(--{{ person.colour }});">
+              <img src="../img/{{ person.img }}" alt="Portrait of {{ person.name }}"/>
+            </figure>
+            {% endif %}
+          </div>
+          <div>
+            <h3 class="type-2 font-sans fw-300">{{ person.name }}</h3>
+            <p>{{ person.bio }}</p>
+          </div>
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <h2 class="label border-top padding-top-xl">Our funder</h2>
     <div class="row">
       <div class="col col--1of2">
         <p class="type-4">Built in partnership with the <a href="https://www.gatesfoundation.org/" target="_blank" rel="noopener" class="border-bottom">Bill & Melinda Gates Foundation</a>.</p>
