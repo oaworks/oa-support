@@ -1,9 +1,9 @@
 :root {
   --gutter: 6vw;
   --gutter-negative: -6vw;
-  --primary-colour: pink;
-  --primary-colour-rgb: 255, 192, 203;
-  --secondary-colour: hotpink;
+  --primary-colour: aquamarine;
+  --primary-colour-rgb: 127, 255, 212;
+  --secondary-colour: lightseagreen;
   --sal-duration: 400ms;
 }
 
