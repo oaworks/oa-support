@@ -1,6 +1,7 @@
 {
   "name": "OAsupport",
   "tagline": "A help desk for making papers Open Access.",
+  "description": "Running Open Access policies and repositories comes with seemingly endless tasks. We help you so helping researchers isn’t one of them.",
   "base_url": "https://oa.support",
   "twitter": "OA_Works",
   "facebook": "oadotworks",
