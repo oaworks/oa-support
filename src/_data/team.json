@@ -10,13 +10,13 @@
     "github": "JosephMcArthur"
   },
   {
-    "name": "Natalia Norori",
-    "role": "Data wrangler & systems manager",
-    "bio": "Data wrangler & systems manager at <a href ='https://oa.works' target='_blank' rel='noopener' class='border-bottom'>OA.Works</a>. Profiled by <a href='https://www.forbes.com/sites/andrewwight/2020/07/19/this-nicaraguan-is-showing-how-to-better-share-pandemic-health-data/' target='_blank' rel='noopener' class='border-bottom'>Forbes</a>.",
-    "img": "natalia.png",
+    "name": "Sarah Wipperman",
+    "role": "Scholarly Communications Specialist",
+    "bio": "Worked as a Scholarly Communication Librarian specializing in publishing, copyright, and research visibility.",
+    "img": "sarah.jpeg",
     "colour": "violet",
-    "email": "natalia@oa.works",
-    "twitter": "natalianorori",
-    "github": "natalianorori"
+    "email": "sarah@oa.works",
+    "twitter": "swipp_it",
+    "github": "swipperman"
   }
 ]
