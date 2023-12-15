@@ -58,28 +58,6 @@ meta_description: "OAreport is an open-source tool that analyzes papers covered 
       </li>
     </ul>
 
-    <h2 class="font-sans type-1 fw-900">Meet our team</h2>
-    <ul class="unstyled-list row">
-      {% for person in team %}
-      {% assign delay_count = delay_count | plus: 50 %}
-      <li class="col col--1of3">
-        <article class="flex">
-          <div class="margin-right">
-            {% if person.img %}
-            <figure class="portrait portrait--circular" style="background-color: var(--white);">
-              <img src="../img/{{ person.img }}" alt="Portrait of {{ person.name }}"/>
-            </figure>
-            {% endif %}
-          </div>
-          <div>
-            <h3 class="type-2 font-sans fw-300 margin-bottom-sm">{{ person.name }}</h3>
-            <p>{{ person.bio }}</p>
-          </div>
-        </article>
-      </li>
-      {% endfor %}
-    </ul>
-
     <h2 class="label border-top padding-top-xl">Our funder</h2>
     <div class="row">
       <div class="col col--1of2">
