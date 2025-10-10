@@ -19,6 +19,18 @@ meta_description: "OAreport is an open-source tool that analyzes papers covered 
     <section>
       <p class="label">{{ site.name }}</p>
       <h2 class="type-1 font-sans fw-900">{{ site.tagline }}</h2>
+      <!-- Savvycal modal -->
+      <p>
+        <a
+          href="https://savvycal.com/oasupport/demo"
+          data-savvycal-embed
+          id="schedule-demo"
+          class="button button--primary"
+          aria-label="Schedule a demo of OA.Support"
+        >
+          Schedule demo →
+        </a>
+      </p>
       <p class="type-1 no-margin"><a href="#content"><span class="sr-only"> Scroll down</span>↓</a></p>
     </section>
   </div>
@@ -71,21 +83,35 @@ meta_description: "OAreport is an open-source tool that analyzes papers covered 
     </div>
   </section>
 
-  <aside class="row row--centered bg-white section colour-block" id="newsletter-form">
-    <div class="col col--1of2 flex-center flex-col align-center" data-sal="slide-left" data-sal-delay="100">
-      <h2 class="label"><span class="type-3">Stay up to date</span></h2>
+  <section class="row row--centered bg-white section colour-block" id="newsletter-form">
+    <div class="col col--3of4 flex-center flex-col align-center" data-sal="slide-left" data-sal-delay="100">
+      <h2 class="label"><span class="type-4">Learn more</span></h2>
       <div class="flex-center flex-col" id="newsletter-inner">
-        <p class="type-5">We’re working to make {% include 'partials/app-name.liquid' %} available to funders, and libraries. Sign up here for updates.</p>
-        <form id="newsletter">
-          <label for="email">Your email</label>
-          <div class="flex">
-            <input type="email" class="_oaworks_form" name="signup" id="email" placeholder="you@institution.edu" required/>
-            <button id="submit" type="submit" href="{{ site.base_url }}#newsletter-form">Sign up</button>
-          </div>
-        </form>
+        <p class="type-4">
+          {% include 'partials/app-name.liquid' %} is available for funders and libraries. <br>Book a chat with our co-founder to see how we can help you. 
+        </p>
+
+        <!-- Savvycal modal -->
+        <div class="flex">
+          <a
+            href="https://savvycal.com/oasupport/demo"
+            data-savvycal-embed
+            id="schedule-demo"
+            class="button button--primary"
+            aria-label="Schedule a demo of OA.Support"
+          >
+            Schedule demo →
+          </a>
+        </div>
+
+        <noscript>
+          <p class="type-5">
+            JavaScript is required to open the scheduling tool. You can still <a href="https://savvycal.com/oasupport/demo">book a demo here</a>.
+          </p>
+        </noscript>
       </div>
     </div>
-  </aside>
+  </section>
 
   <footer class="section bg-black">
     <div class="row">

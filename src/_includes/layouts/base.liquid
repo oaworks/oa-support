@@ -13,7 +13,13 @@
       {{ content }}
     </main>
 
+    {% comment %} Scroll animation library {% endcomment %}
     <script src="{{ site.base_url }}/js/sal.js"></script>
+
+    {% comment %} Savvycal modal {% endcomment %}
+    <script>window.SavvyCal=window.SavvyCal||function(){(SavvyCal.q=SavvyCal.q||[]).push(arguments)};</script>
+    <script async src="https://embed.savvycal.com/v1/embed.js"></script>
+    <script> SavvyCal('init'); </script>
 
     <noscript><img src="https://sa.oa.support/noscript.gif" alt=""/></noscript>
     <script async defer src="https://sa.oa.support/latest.js"></script>
